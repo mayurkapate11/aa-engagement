@@ -1,0 +1,72 @@
+@import "compass/css3";
+h1{
+    text-align: center;
+    text-decoration: double;
+    color:navy;
+}
+
+header {
+  width: 37.5em;
+  margin: 2em auto;
+}
+ 
+.logo {
+  background: url('https://s.cdpn.io/7635/averyson-logo.gif') no-repeat;
+  background-size: 100%;
+  float:left;
+  width:100%;
+  height: 30em;
+  font-family: Baskerville;
+  color: #575557;
+  position: relative;
+}
+
+.ankita, .ashish, .ampersand {
+    font-size: 5em;
+    text-align: center;
+}
+
+.ankita {
+    font-style: oblique;
+  position: absolute;
+  top: 80px;
+  left: 225px;
+}
+
+.ashish {
+    font-style: oblique;
+  position: absolute;
+  top: 140px;
+  left: 335px;  
+}
+
+.ampersand {
+  font-style: italic; 
+  position: absolute;
+  top: 120px;
+  left: 270px;
+}
+
+date {
+    text-align: center;
+   border-top: 1px solid pink;
+   border-bottom: 1px solid pink;
+  position: absolute;
+  text-align: center;
+  nav-down: auto;
+  top: 230px;
+  left: 210px
+}
+p{
+    border-top: solid pink;
+    text-align: center;
+    border-bottom: 1px solid pink;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+h2{
+    text-align: left;
+    color: darkmagenta;
+    border-top: #575557;
+}
